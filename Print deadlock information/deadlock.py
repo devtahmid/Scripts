@@ -6,7 +6,7 @@ newFileOpened = False
 
 while myline:
   if newFileOpened==False :
-    deadlockStart = re.search(r"(Deadlock Id [0-9]+ detected)+", myline)
+    deadlockStart = re.search(r"Deadlock Id [0-9]+ detected", myline)
     if deadlockStart:
       idNum = re.search(r"[0-9]+", deadlockStart.group())
       newFilename= idNum.group() + ".txt"
