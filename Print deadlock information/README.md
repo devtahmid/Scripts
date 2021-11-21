@@ -2,7 +2,7 @@
 Looks for patterns that match "Deadlock Id [0-9]+ detected" and "End of deadlock information" to mark the beginning and end of a deadlock information, respectively. <br>
 
 ## Operating <br>
-Run the script and enter the name of the log file when prompted. <br>
+Run the script in the same folder as the log file and enter the name of the log file when prompted.  <br>
 
 
 ### Drawback <br>
