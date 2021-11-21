@@ -6,6 +6,6 @@ Run the script and enter the name of the log file when prompted. <br>
 
 
 ### Drawback <br>
-Script assumes that the **two patterns are not present in the same line**
+Script assumes that the two patterns are not present in the same line, and there is only one occurence of a pattern in a single line
 
 
