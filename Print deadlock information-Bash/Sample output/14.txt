@@ -1,0 +1,10 @@
+03:00000:00029:1999/03/15 13:16:38.19 server Deadlock Id 14 detected
+
+Deadlock Id 14: detected. 1 deadlock chain(s) involved.
+Deadlock Id 14: Process (Familyid 94, 38) (suid 62) was executing a SELECT command at line 1.
+Deadlock Id 14: Process (Familyid 29, 29) (suid 56) was executing a INSERT command at line 1.
+SQL Text: insert authors (au_id, au_fname, au_lname) values (’A999999816’, ’Bill’, ’Dewart’)
+Deadlock Id 14: Process (Familyid 0, Spid 29) was waiting for a ’exclusive page’ lock on page 1155 of the ’authors’ table in database 8 but process (Familyid 94, Spid 38) already held a ’shared page’ lock on it.
+Deadlock Id 14: Process (Familyid 94, Spid 38) was waiting for a ’shared page’ lock on page 2336 of the ’authors’ table in database 8 but process (Familyid 29, Spid 29) already held a ’exclusive page’ lock on it.
+Deadlock Id 14: Process (Familyid 0, 29) was chosen as the victim. 
+End of deadlock information.
