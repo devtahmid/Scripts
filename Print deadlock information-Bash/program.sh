@@ -3,7 +3,7 @@
 original="log.txt"
 input="log_copy.txt"
 cp $original $input
-echo -e "\nAppended line"  | tee -a log_copy.txt  #while loop reads till 2nd last line of file, hence adding a new line
+echo -e "\nAppended line"  | tee -a $input  #while loop reads till 2nd last line of file, hence adding a new line
 
 counter=0
 newFileOpened=0 #false
