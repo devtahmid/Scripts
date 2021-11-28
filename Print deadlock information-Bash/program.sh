@@ -5,10 +5,7 @@ input="log_copy.txt"
 cp $original $input
 echo -e "\nAppended line"  | tee -a $input  #while loop reads till 2nd last line of file, hence adding a new line
 
-counter=0
 newFileOpened=0 #false
-zero=0
-
 
 while IFS= read -r line
 do
