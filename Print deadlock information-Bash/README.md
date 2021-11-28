@@ -9,6 +9,6 @@ Run the script in the same folder as the log file <br>
 
 
 ### Drawback <br>
-Script assumes that the two patterns are not present in the same line, and there is only one occurence of a pattern in a single line
+Script assumes that the two patterns are not present in the same line, and the pattern lines are of the same format as in ``log.txt`` 
 
 
